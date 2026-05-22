@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;800;900&family=Share+Tech+Mono&family=Inter:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-space-black: #050508;
+  --color-space-dark: #0b0b10;
+  --color-space-card: rgba(13, 15, 24, 0.75);
+  --color-astrophage: #f59e0b;
+  --color-tau-teal: #06b6d4;
+  --color-cyber-red: #ef4444;
+  --color-cyber-green: #10b981;
+  --color-cyber-blue: #3b82f6;
+
+  --font-orbitron: "Orbitron", sans-serif;
+  --font-mono: "Share Tech Mono", monospace;
+  --font-sans: "Inter", sans-serif;
+
+  --animate-scanline: scanline 12s linear infinite;
+  --animate-pulse-glow: pulse-glow 3s ease-in-out infinite;
+  --animate-grid-float: grid-float 25s linear infinite;
+
+  @keyframes scanline {
+    0% { transform: translateY(-100%); }
+    100% { transform: translateY(100%); }
+  }
+  @keyframes pulse-glow {
+    0%, 100% { opacity: 0.15; filter: drop-shadow(0 0 2px rgba(6, 182, 212, 0.2)); }
+    50% { opacity: 0.35; filter: drop-shadow(0 0 10px rgba(6, 182, 212, 0.4)); }
+  }
+  @keyframes grid-float {
+    0% { background-position: 0 0; }
+    100% { background-position: 0 40px; }
+  }
+  @keyframes slideInUp {
+    from { opacity: 0; transform: translateY(12px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+}
+
+/* Custom CSS utilities for futuristic styling */
+
+/* Glow text effects */
+.glow-text-teal {
+  text-shadow: 0 0 8px rgba(6, 182, 212, 0.6), 0 0 20px rgba(6, 182, 212, 0.3);
+}
+
+.glow-text-amber {
+  text-shadow: 0 0 8px rgba(245, 158, 11, 0.6), 0 0 20px rgba(245, 158, 11, 0.3);
+}
+
+.glow-text-red {
+  text-shadow: 0 0 8px rgba(239, 68, 68, 0.6), 0 0 20px rgba(239, 68, 68, 0.3);
+}
+
+.glow-text-green {
+  text-shadow: 0 0 8px rgba(16, 185, 129, 0.6), 0 0 20px rgba(16, 185, 129, 0.3);
+}
+
+/* Sci-fi scanner overlay line */
+.scanlines::after {
+  content: " ";
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.22) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.04), rgba(0, 255, 0, 0.01), rgba(0, 0, 255, 0.04));
+  z-index: 9999;
+  background-size: 100% 4px, 6px 100%;
+  pointer-events: none;
+}
+
+/* Grid background overlay */
+.sci-fi-grid {
+  background-size: 40px 40px;
+  background-image: 
+    linear-gradient(to right, rgba(6, 182, 212, 0.035) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(6, 182, 212, 0.035) 1px, transparent 1px);
+}
+
+/* Glassmorphism panel styling */
+.glass-panel {
+  background: rgba(10, 11, 19, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(6, 182, 212, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
+}
+
+.glass-panel-amber {
+  background: rgba(10, 11, 19, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(245, 158, 11, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
+}
+
+.glass-panel-red {
+  background: rgba(10, 11, 19, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(239, 68, 68, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(10, 11, 19, 0.5);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(6, 182, 212, 0.25);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(6, 182, 212, 0.55);
+}
+
+/* Animations for progress indicators */
+@keyframes glow-pulse-cyan {
+  0%, 100% { box-shadow: 0 0 5px rgba(6, 182, 212, 0.4); }
+  50% { box-shadow: 0 0 15px rgba(6, 182, 212, 0.7); }
+}
+
+@keyframes glow-pulse-amber {
+  0%, 100% { box-shadow: 0 0 5px rgba(245, 158, 11, 0.4); }
+  50% { box-shadow: 0 0 15px rgba(245, 158, 11, 0.7); }
+}
+
+@keyframes glow-pulse-red {
+  0%, 100% { box-shadow: 0 0 5px rgba(239, 68, 68, 0.4); }
+  50% { box-shadow: 0 0 15px rgba(239, 68, 68, 0.7); }
+}
+
+.glow-cyan {
+  animation: glow-pulse-cyan 2s infinite;
+}
+
+.glow-amber {
+  animation: glow-pulse-amber 2s infinite;
+}
+
+.glow-red {
+  animation: glow-pulse-red 2s infinite;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+.mc-dot-grid {
+  background-image: radial-gradient(rgba(6, 182, 212, 0.08) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
