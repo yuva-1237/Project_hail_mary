@@ -3,3 +3,4 @@
 [2026-05-23T11:26:02.072157] feat: add base layout components and toolbar
 [2026-05-23T14:26:02.072157] style: setup Tailwind configuration and base index.css
 [2026-05-23T16:26:02.072157] feat: integrate Three.js basic canvas
+[2026-05-23T18:26:02.072157] feat: render basic 3D model of spacecraft
