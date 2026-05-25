@@ -14,3 +14,4 @@
 [2026-05-25T10:26:02.072157] feat: add crew status panel with health variables
 [2026-05-25T15:26:02.072157] feat: create event generator framework
 [2026-05-25T18:26:02.072157] feat: add basic solar storm anomaly event
+[2026-05-25T20:26:02.072157] feat: add hull breach procedural anomaly
