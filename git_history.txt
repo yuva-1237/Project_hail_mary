@@ -27,3 +27,4 @@
 [2026-05-27T19:26:02.072157] fix: format agent JSON response parser
 [2026-05-27T21:26:02.072157] refactor: handle JSON syntax exceptions in LLM outputs
 [2026-05-27T23:26:02.072157] feat: calculate consensus score across agents
+[2026-05-28T08:26:02.072157] feat: display debate logs sequentially on UI
