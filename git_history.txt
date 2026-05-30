@@ -37,3 +37,4 @@
 [2026-05-29T18:26:02.072157] style: style risk charts with custom Canvas gradients
 [2026-05-29T23:26:02.072157] feat: display confidence metrics in Commander decision card
 [2026-05-30T08:26:02.072157] feat: explainable AI reasoning breakdown panel
+[2026-05-30T11:26:02.072157] feat: add manual override button for flight operator
