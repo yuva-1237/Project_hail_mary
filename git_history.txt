@@ -42,3 +42,4 @@
 [2026-05-30T17:26:02.072157] feat: implement speech recognition using Web Speech API
 [2026-05-30T22:26:02.072157] feat: voice commands parsing for dashboard commands
 [2026-05-31T08:26:02.072157] feat: add media recorder helper for voice audio
+[2026-05-31T13:26:02.072157] feat: save voice recording blobs to IndexedDB storage
