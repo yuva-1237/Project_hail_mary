@@ -48,3 +48,4 @@
 [2026-06-01T08:26:02.072157] fix: resolve IndexedDB schema upgrade transaction blocks
 [2026-06-01T11:26:02.072157] feat: text search filter for transcripts in Voice Center
 [2026-06-01T13:26:02.072157] feat: link audio logs to active event IDs
+[2026-06-01T16:26:02.072157] feat: export voice audit trails as JSON dump
