@@ -45,3 +45,4 @@
 [2026-05-31T13:26:02.072157] feat: save voice recording blobs to IndexedDB storage
 [2026-05-31T18:26:02.072157] feat: add Mission Voice Center listing audio logs
 [2026-05-31T22:26:02.072157] feat: add playback controls for recorded operator audio
+[2026-06-01T08:26:02.072157] fix: resolve IndexedDB schema upgrade transaction blocks
