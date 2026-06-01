@@ -50,3 +50,4 @@
 [2026-06-01T13:26:02.072157] feat: link audio logs to active event IDs
 [2026-06-01T16:26:02.072157] feat: export voice audit trails as JSON dump
 [2026-06-01T18:26:02.072157] feat: integrate OpenAI TTS stream helper
+[2026-06-01T22:26:02.072157] feat: add ElevenLabs speech synthesis support
