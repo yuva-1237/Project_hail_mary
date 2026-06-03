@@ -57,3 +57,4 @@
 [2026-06-02T17:26:02.072157] feat: implement local TF-IDF similarity matcher
 [2026-06-02T21:26:02.072157] feat: store Conversational Mission Intelligence history
 [2026-06-03T08:26:02.072157] feat: toggle panel commands via voice recognition
+[2026-06-03T12:26:02.072157] feat: show pulsing orb visualizer based on audio amplitude
