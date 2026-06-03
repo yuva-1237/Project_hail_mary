@@ -60,3 +60,4 @@
 [2026-06-03T12:26:02.072157] feat: show pulsing orb visualizer based on audio amplitude
 [2026-06-03T16:26:02.072157] style: customize scrollbars and visual glow animations
 [2026-06-03T18:26:02.072157] feat: NASA Space Weather DONKI API integration
+[2026-06-03T22:26:02.072157] fix: mock API fallback for space weather off-grid
