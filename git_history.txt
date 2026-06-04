@@ -65,3 +65,4 @@
 [2026-06-04T11:26:02.072157] feat: drag and drop panels support
 [2026-06-04T15:26:02.072157] feat: export post-mission analysis PDF via jsPDF
 [2026-06-04T17:26:02.072157] feat: add Earth Twin scenario toggle
+[2026-06-04T20:26:02.072157] feat: list previous mission runs from replay logs
