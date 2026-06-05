@@ -70,3 +70,4 @@
 [2026-06-05T08:26:02.072157] refactor: clean up hook listeners and timers
 [2026-06-05T13:26:02.072157] test: add unit tests for sandbox cloning
 [2026-06-05T15:26:02.072157] test: add unit tests for telemetry damage engine
+[2026-06-05T20:26:02.072157] test: mock Web Speech API window overrides for testing
