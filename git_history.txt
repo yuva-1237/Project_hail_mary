@@ -74,3 +74,4 @@
 [2026-06-06T08:26:02.072157] feat: show detailed system logs panel
 [2026-06-06T13:26:02.072157] feat: customize individual agent icons and indicators
 [2026-06-06T18:26:02.072157] style: adjust layout spacing on ultra-wide monitors
+[2026-06-06T23:26:02.072157] fix: resolve Three.js memory leaks on canvas unmount
