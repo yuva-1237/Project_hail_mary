@@ -73,3 +73,4 @@
 [2026-06-05T20:26:02.072157] test: mock Web Speech API window overrides for testing
 [2026-06-06T08:26:02.072157] feat: show detailed system logs panel
 [2026-06-06T13:26:02.072157] feat: customize individual agent icons and indicators
+[2026-06-06T18:26:02.072157] style: adjust layout spacing on ultra-wide monitors
