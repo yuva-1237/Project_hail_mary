@@ -79,3 +79,4 @@
 [2026-06-07T11:26:02.072157] refactor: decouple event templates from event manager
 [2026-06-07T13:26:02.072157] feat: add emergency abort mission checklist
 [2026-06-07T16:26:02.072157] feat: add oxygen depletion rate acceleration heuristics
+[2026-06-07T19:26:02.072157] fix: adjust voice command delay threshold
