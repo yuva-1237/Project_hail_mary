@@ -84,3 +84,4 @@
 [2026-06-08T08:26:02.072157] style: polish typography and fonts integration
 [2026-06-08T10:26:02.072157] feat: add judge challenge button to header toolbar
 [2026-06-08T15:26:02.072157] feat: add custom scenarios presets for judges
+[2026-06-08T19:26:02.072157] refactor: separate hooks and utility folders
