@@ -147,15 +147,6 @@ The core technical differentiator of HAIL MARY is its sandboxed evaluation loop:
 
 ---
 
-## 🏆 Hackathon Impact (Judging Matrix)
-
-* 💡 **Innovation:** Dual-track voice integration—an immutable compliance audit trail (MVIAS) paired with a conversational dashboard controller (CMI) that executes highlights and views.
-* ⚙️ **Technical Complexity:** Combines client-side Server-Sent Events (SSE), Web Audio API amplitude tracks, browser IndexedDB vector storage, and offline TF-IDF fallback similarity engines.
-* 🌍 **Real-World Utility:** Practical design for hands-free, high-stress environments (e.g., flight decks, surgery units, disaster response control centers) where manual inputs are slow or impossible.
-* 🔍 **Explainable AI:** Operators can query CMI directly about historical decisions, retrieving exact Monte Carlo curves and agent debates from memory.
-* 🎨 **Exceptional UX:** Interactive WebGL spacecraft model, responsive layouts, voice waveform amplitude visualizer, and presentation-stable viewports that prevent scroll shift during live runs.
-
----
 
 ## 🔮 Future Enhancements
 
